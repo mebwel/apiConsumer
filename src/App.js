@@ -16,6 +16,7 @@ class App extends React.Component {
     }
     render() {
         const { data } = this.state
+        console.log(data)
         return (
             <div className={styles.container}>
 
