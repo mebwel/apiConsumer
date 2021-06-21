@@ -8,7 +8,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     if (!confirmed)
         return "loading..."
     return (
-        <div className="styles.container">
+        <div className={styles.container}>
             <Grid container spacing={3} justify="center">
 
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.confirmed)}>
